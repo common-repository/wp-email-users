@@ -1,0 +1,313 @@
+button.delete-email-indi {
+  background-color: transparent;
+  border: none;
+  color: #d80505;
+  width: 100%;
+  outline: none;
+  cursor: pointer;
+}
+#TB_window h2 {
+  text-align: center;
+}
+#TB_window table {
+  margin: 0 auto;
+}
+button.delete-smtp-conf {
+  background-color: transparent;
+  border: none;
+  color: #d80505;
+  width: 100%;
+  outline: none;
+  cursor: pointer;
+}
+
+button.delete-temp-conf {
+  background-color: transparent;
+  border: none;
+  color: #d80505;
+  width: 100%;
+  outline: none;
+  cursor: pointer;
+}
+button.template_prev_class {
+  background-color: transparent;
+  border: none;
+  color: #d80505;
+  width: 100%;
+  outline: none;
+  cursor: pointer;
+}
+button.edit-smtp-conf {
+  background-color: transparent;
+  border: none;
+  color: #d80505;
+  width: 100%;
+  outline: none;
+  cursor: pointer;
+}
+.smtp_table {
+  border-collapse: collapse;
+  border: 1px solid #000;
+}
+.smtp_table th {
+  background-color: #dddddd;
+  border: 1px solid #000;
+  padding: 8px;
+}
+.smtp_table tr {
+  border: 1px solid #dddddd;
+  padding: 8px;
+}
+.smtp_table td {
+  border: 1px solid #dddddd;
+  padding: 8px;
+}
+.double {
+  border-style: groove;
+}
+button.edit-smtp-enable {
+  background-color: transparent;
+  border: none;
+  color: #495969;
+  width: 100%;
+  outline: none;
+  cursor: pointer;
+}
+button.edit-smtp-disable {
+  background-color: transparent;
+  border: none;
+  color: #008ec2;
+  width: 100%;
+  outline: none;
+  cursor: pointer;
+}
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+button.delete-member-indi {
+  background-color: transparent;
+  border: none;
+  color: #d80505;
+  width: 100%;
+  outline: none;
+  cursor: pointer;
+}
+a.trash-icon {
+  color: #d80505;
+}
+a.trash-icon:hover {
+  color: #fb0202;
+}
+.wau_boxlen {
+  width: 100%;
+}
+.status-Failed {
+  color: red;
+}
+.status-Sent {
+  color: green;
+}
+#wau_role {
+  height: 120px;
+}
+.wau_cont {
+  text-align: center;
+}
+#Mail_user_table_wrapper,
+#list_user_table_wrapper,
+#User_email_bcc_table_wrapper,
+#User_autoresponder_table_wrapper,
+#example4_wrapper {
+  background-color: #f9f9f9;
+  border: 2px solid #cecece;
+  padding: 10px;
+  width: 97%;
+}
+#example3_wrapper {
+  background-color: #f9f9f9;
+  border: 2px solid #cecece;
+  padding: 10px;
+}
+.role_wau_boxlen_csv {
+  width: 179%;
+  margin-left: -10px;
+}
+textarea#wau_mailcontent,
+textarea#weu_show_area {
+  width: 40%;
+  height: 150px;
+  padding: 15px;
+  margin-top: 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  resize: none;
+}
+.wau_form {
+  /* width: 80%; */
+  width: 100%;
+  padding: 0px 30px;
+}
+/*Show table */
+#show_table th td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  background-color: #ffffff;
+}
+span.export-text {
+  vertical-align: text-top;
+  margin: -11px 22px 0 0;
+  display: inline-block;
+}
+#centeredmenu {
+  margin-top: 3%;
+  float: left;
+  width: 100%;
+  background: #fff;
+  border-bottom: 4px solid #000;
+  overflow: hidden;
+  position: relative;
+}
+#centeredmenu ul {
+  clear: left;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  left: 50%;
+  text-align: center;
+}
+#centeredmenu ul li {
+  display: block;
+  float: left;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  right: 50%;
+}
+#centeredmenu ul li a {
+  display: block;
+  margin: 0 0 0 1px;
+  padding: 3px 10px;
+  background: #008ec2;
+  color: #fff;
+  text-decoration: none;
+  line-height: 2em;
+}
+#centeredmenu ul li a:hover {
+  background: #369;
+  color: #fff;
+  font-weight: bold;
+}
+#centeredmenu ul li.active {
+  color: #fff;
+  background: #000;
+  font-weight: bold;
+}
+/* Outer */
+.popup {
+  width: 100%;
+  height: 100%;
+  display: none;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  background: rgba(0, 0, 0, 0.75);
+  z-index: 9999;
+}
+/* Inner */
+.popup-inner {
+  max-width: 700px;
+  width: 100%;
+  height: 400px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  padding: 45px;
+  position: absolute;
+  top: 43%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 1);
+  border-radius: 3px;
+  background: #fff;
+}
+/* Close Button */
+.popup-close {
+  display: none !important;
+  width: 30px;
+  height: 30px;
+  padding-top: 4px;
+  display: inline-block;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  transition: ease 0.25s all;
+  -webkit-transform: translate(50%, -50%);
+  transform: translate(50%, -50%);
+  border-radius: 1000px;
+  background: rgba(0, 0, 0, 0.8);
+  font-family: Arial, Sans-Serif;
+  font-size: 20px;
+  text-align: center;
+  line-height: 100%;
+  color: #fff;
+}
+.popup-close:hover {
+  -webkit-transform: translate(50%, -50%) rotate(180deg);
+  transform: translate(50%, -50%) rotate(180deg);
+  background: rgba(0, 0, 0, 1);
+  text-decoration: none;
+}
+.empty-msg {
+  display: none;
+}
+.error-mail {
+  display: none;
+}
+.mail-success {
+  display: none;
+}
+#User_email_bcc_table_wrapper,
+#list_bcc_wrapper,
+#group_bcc_wrapper {
+  background-color: #f9f9f9;
+  border: 2px solid #cecece;
+  padding: 10px;
+  width: 97%;
+}
+.red-tooltip + .tooltip > .tooltip-inner {
+  background-color: #ffe6e6;
+  font-family: Arial, Sans-Serif;
+  font-size: 14px;
+  color: #cc0000;
+}
+
+#uploadfiles {
+  display: inline-block;
+}
+
+.sample_csv {
+  display: inline-block;
+  padding-top: 10px;
+  color: #d9402a;
+  text-decoration: underline;
+}
